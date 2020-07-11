@@ -35,7 +35,7 @@ index 43d864abd1b75b4ecd1598b55768fb89a47ed412..c53debd9731c393f2b1cbdc5f704b90f
                  } catch (Throwable thr) {
                      if (thr instanceof ThreadDeath) {
 diff --git a/src/main/java/net/minecraft/server/PlayerChunkMap.java b/src/main/java/net/minecraft/server/PlayerChunkMap.java
-index bf0a4a5779020fd728cbb5e8b68a149b9deb1b6f..0c78c386a0317933387e82ccaf8c2684ea2eb311 100644
+index c1963c3c33e43993a5bc8b9e5f7ddf7341e679be..5ff46135a9d44d189de99b93995786c35e9316db 100644
 --- a/src/main/java/net/minecraft/server/PlayerChunkMap.java
 +++ b/src/main/java/net/minecraft/server/PlayerChunkMap.java
 @@ -119,31 +119,28 @@ public class PlayerChunkMap extends IChunkLoader implements PlayerChunk.d {
